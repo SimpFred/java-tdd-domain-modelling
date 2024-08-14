@@ -28,6 +28,10 @@ public class BasketTest {
         Assertions.assertTrue(basket.add("Eggs", 3));
         Assertions.assertNotEquals(0, basket.total());
         Assertions.assertEquals(10, basket.total());
+
+        Assertions.assertTrue(basket.add("Apple", 5));
+        Assertions.assertEquals(15, basket.total());
+
     }
 
 
