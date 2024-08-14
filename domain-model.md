@@ -6,6 +6,8 @@
 |                | `ìnt totalCost`                  | `getTotalCost()`                      | Total cost is > 0     | Return total cost    |
 |                |                                  |                                       | Total cost is < 0     | Return error message |
 |                |                                  |                                       |                       |                      |
+|                |                                  | `addToTotalCost(long price)`          | Price is > 0          | Add to totalCost     |
+|                |                                  |                                       | Price is < 0          | Return               |
 
 | Classes       | Variables                                                   | Methods                                 | Scenario                 | Outcomes                 |
 |---------------|-------------------------------------------------------------|-----------------------------------------|--------------------------|--------------------------|
