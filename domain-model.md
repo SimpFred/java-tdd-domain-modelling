@@ -1,13 +1,13 @@
-| Classes        | Variables                        | Methods                               | Scenario              | Outcomes             |
-|----------------|----------------------------------|---------------------------------------|-----------------------|----------------------|
-| `CashRegister` | `Map<Integer, long> weightItem`  | `getPriceForWeightItem(int PLUCode)`  | Product is in map     | Add price to total   |
-|                | `Map<barcode, long> barcodeItem` | `getPriceForBarcodeItem(int barcode)` | Product is not in map | Return error message |
-|                |                                  |                                       |                       |                      |
-|                | `ìnt totalCost`                  | `getTotalCost()`                      | Total cost is > 0     | Return total cost    |
-|                |                                  |                                       | Total cost is < 0     | Return error message |
-|                |                                  |                                       |                       |                      |
-|                |                                  | `addToTotalCost(long price)`          | Price is > 0          | Add to totalCost     |
-|                |                                  |                                       | Price is < 0          | Return               |
+| Classes        | Variables                           | Methods                               | Scenario              | Outcomes             |
+|----------------|-------------------------------------|---------------------------------------|-----------------------|----------------------|
+| `CashRegister` | `Map<Integer, Integer> weightItem`  | `getPriceForWeightItem(int PLUCode)`  | Product is in map     | Add price to total   |
+|                | `Map<barcode, Integer> barcodeItem` | `getPriceForBarcodeItem(int barcode)` | Product is not in map | Return error message |
+|                |                                     |                                       |                       |                      |
+|                | `ìnt totalCost`                     | `getTotalCost()`                      | Total cost is > 0     | Return total cost    |
+|                |                                     |                                       | Total cost is < 0     | Return error message |
+|                |                                     |                                       |                       |                      |
+|                |                                     | `addToTotalCost(int price)`           | Price is > 0          | Add to totalCost     |
+|                |                                     |                                       | Price is < 0          | Return               |
 
 | Classes       | Variables                                                   | Methods                                 | Scenario                 | Outcomes                 |
 |---------------|-------------------------------------------------------------|-----------------------------------------|--------------------------|--------------------------|
